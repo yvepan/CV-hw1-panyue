@@ -2,8 +2,8 @@
 
 **课程**：计算机视觉 | **项目**：从零构建三层 MLP 实现 Fashion-MNIST 分类
 
-- **GitHub**：[填写链接]
-- **模型权重（Google Drive）**：[填写链接]
+- **GitHub**：[yvepan/CV-hw1-panyue: fdu CV hw1-panyue](https://github.com/yvepan/CV-hw1-panyue)
+- **模型权重下载**：[best_model.npz](https://github.com/yvepan/CV-hw1-panyue/raw/main/best_model.npz)
 
 ---
 

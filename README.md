@@ -2,8 +2,8 @@
 
 纯 NumPy 手工实现三层 MLP，Fashion-MNIST 测试集准确率 **89.28%**。
 
-- **GitHub**：[填写链接]
-- **模型权重（Google Drive）**：[填写链接]
+- **GitHub**：[yvepan/CV-hw1-panyue: fdu CV hw1-panyue](https://github.com/yvepan/CV-hw1-panyue)
+- **模型权重下载**：[best_model.npz](https://github.com/yvepan/CV-hw1-panyue/raw/main/best_model.npz)
 
 ---
 
@@ -24,14 +24,6 @@ python search.py
 ```
 
 自动完成两阶段：① 8 组超参数组合各训练 15 epochs，结果写入 `search_results.csv`；② 用最优参数重新训练 30 epochs，保存 `best_model.npz` 与 `training_curves.png`。
-
-### 直接训练（固定超参数）
-
-```bash
-python train.py
-```
-
-在 `train.py` 底部修改 `train_model(...)` 的参数即可。
 
 ### 测试评估
 
@@ -54,6 +46,14 @@ python activation_compare.py
 ```
 
 固定最优超参数，分别以 ReLU / Sigmoid / Tanh 训练 30 epochs，生成 `activation_comparison.png`（Loss 与 Val Accuracy 对比曲线）及 `activation_compare_results.json`（各 epoch 数值记录）。可在脚本顶部修改 `BASE_PARAMS` 自定义对照条件。
+
+### 直接训练（固定超参数）
+
+```bash
+python train.py
+```
+
+在 `train.py` 底部修改 `train_model(...)` 的参数即可。
 
 ---
 
