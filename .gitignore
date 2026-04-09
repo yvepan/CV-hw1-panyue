@@ -1,0 +1,7 @@
+﻿data/
+_temp_model.npz
+_act_*.npz
+activation_compare_results.json
+__pycache__/
+*.pyc
+.claude/
